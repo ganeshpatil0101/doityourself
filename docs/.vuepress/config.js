@@ -1,38 +1,28 @@
 module.exports = {
-  title: 'Mediumish',
+  title: 'Without Agent',
   base: '/',
   dest: 'public',
-  description: 'Mediumish theme with VuePress and Forestry',
+  description: 'Do without agent',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {
   authors: [
       {
-      name: 'Sal',
+      name: 'Ganesh Patil',
       avatar: '/assets/img/sal.jpg',
-      link: 'https://wowthemes.net/donate',
+      link: 'http://linkedin.com/in/ganeshpatil0101',
       linktext: 'Follow',
-      },
-      {
-        name: 'John Doe',
-        avatar: '/assets/img/avatar.png',
-        link: 'https://bootstrapstarter.com/',
-        linktext: 'Follow',
       },
     ],
     footer: {
       contact: [
         {
-          type: 'codepen',
-          link: '#',
-        },
-        {
           type: 'facebook',
-          link: '#',
+          link: 'https://www.facebook.com/ganeshpatil1010',
         },
         {
           type: 'github',
-          link: 'https://github.com/wowthemesnet/mediumish-vuepress-blog-theme',
+          link: 'https://github.com/ganeshpatil0101/',
         },
         {
           type: 'gitlab',
@@ -44,53 +34,45 @@ module.exports = {
         },
         {
           type: 'linkedin',
-          link: '#',
+          link: 'http://linkedin.com/in/ganeshpatil0101',
         },
         {
           type: 'mail',
-          link: '#',
-        },
-        {
-          type: 'messenger',
-          link: '#',
+          link: 'mailto:ganeshpatil0101@gmail.com',
         },
         {
           type: 'phone',
-          link: '#',
+          link: '+91-9325137778',
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/wowthemesnet',
+          link: 'https://twitter.com/ganeshpatil0101/',
         },
         {
           type: 'web',
-          link: '#',
+          link: 'http://ganeshpatil0101.github.io/',
         }
       ],
       copyright: [
         {
-          text: 'Licensed MIT.',
-          link: 'https://bootstrapstarter.com/license/',
-        },
-        {
-          text: 'Made with Mediumish - free Vuepress theme',
-          link: 'https://bootstrapstarter.com/bootstrap-templates/vuepress-theme-mediumish/',
+          text: 'Copyrites 2021.',
+          link: '',
         },
       ],
     },
 
     sitemap: {
-      hostname: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/'
+      hostname: 'https://github.com/ganeshpatil0101/doityourself'
     },
     comment: {
       service: 'disqus',
       shortname: 'demowebsite',
     },
     newsletter: {
-      endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
+      endpoint: 'https://github.com/ganeshpatil0101/doityourself'
     },
     feed: {
-      canonical_base: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/',
+      canonical_base: 'https://github.com/ganeshpatil0101/doityourself',
     },
     smoothScroll: true
   },

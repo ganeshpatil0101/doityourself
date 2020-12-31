@@ -1,21 +1,21 @@
 {
-  "name": "vuepress-theme-mediumish",
+  "name": "do-without-agent",
   "version": "1.0.32",
-  "description": "Mediumish blog theme for VuePress",
+  "description": "Do without agent, moto to develop this site is to avoid agents those works between gov systems when making pan card/ driving licence / aadhar card ",
   "keywords": [
-    "vue",
-    "vuepress",
-    "vuepress-theme",
-    "blog-theme",
+    "without agent",
+    "Pan card",
+    "driving licence",
+    "aadhar card",
     "blog",
-    "theme"
+    "how to "
   ],
   "repository": {
     "type": "git",
-    "url": "wowthemesnet/mediumish-vuepress-blog-theme"
+    "url": "ganeshpatil0101/doityourself"
   },
   "license": "MIT",
-  "author": "sal<wowthemesnet@gmail.com>",
+  "author": "ganeshpatil<ganeshpatil0101@gmail.com>",
   "main": "index.js",
   "files": [
     "index.js",
@@ -26,10 +26,10 @@
     "components"
   ],
   "scripts": {
-    "docs:build": "vuepress build docs --temp docs/.temp",
-    "docs:dev": "vuepress dev docs --temp docs/.temp",
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs --temp docs/.temp",
+    "docs:dev": "vuepress dev docs --temp docs/.temp",
     "lint": "eslint . --ext .js,.vue",
     "prepublishOnly": "npm run test && npm run docs:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "start": "yarn dev",
